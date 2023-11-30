@@ -1,0 +1,14 @@
+.footerWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem 2rem 2rem 2rem;
+  font-size: 1.5rem;
+  color: var(--ligth-gray);
+}
+
+.footerLinks a {
+  text-decoration: none;
+  margin-left: 2.5rem;
+  color: var(--ligth-gray);
+}

@@ -1,0 +1,96 @@
+/* 
+
+  Responsive.css
+
+*/
+
+@media (min-width: 992px) {
+  /* .sideBar{
+        display: flex;
+    } */
+  .leftSide {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .sideBar {
+    display: none;
+  }
+  .leftSide {
+    display: none;
+  }
+  .rightSide {
+    padding: 0;
+  }
+  .mobileMenu {
+    display: block;
+  }
+  .topBarIcon {
+    color: transparent;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .chartWrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footerWrapper {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+  }
+  .footerLinks {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerLinks a {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .alertsWrapper {
+    width: 100%;
+  }
+  .notification {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .topBarTitle {
+    font-size: 1.5rem;
+  }
+  .homeIcon {
+    padding: 0.2rem;
+  }
+  .formHeaderText {
+    font-size: 1rem;
+  }
+  .formCaption {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .sideBar {
+    width: 20rem;
+    padding-top: 2rem;
+  }
+  .sideBarHead {
+    display: none;
+  }
+  .sideBarBtn {
+    display: none;
+  }
+}

@@ -1,0 +1,153 @@
+
+/* 
+
+  Font Face
+
+*/
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./../public/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto Medium";
+  src: url(./../public/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+/* 
+
+  Reset Styles
+
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* 
+
+    Btn
+
+ */
+
+.btn {
+    font-family: "Roboto Medium";
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 1.5rem;
+    border: none;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px 10px var(--primary-color);
+}
+
+
+/* 
+
+    Body
+
+ */
+
+:root {
+    --text-color: #354667;
+    --ligth-gray: #7b809a;
+    --bg-color: #f1f2f5;
+    --primary-color: #368fee;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto Medium";
+    background-color: var(--bg-color);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* 
+
+- App Styles
+
+*/
+
+.App {
+    display: flex;
+    padding: 2rem;
+    color: #354667;
+}
+
+.leftSide {
+    width: 25rem;
+    padding-right: 25rem;
+}
+.rightSide {
+    width: 100%;
+    padding-left: 2rem;
+}
+
+

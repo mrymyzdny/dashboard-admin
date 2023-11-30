@@ -1,0 +1,31 @@
+.chartWrapper {
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+}
+.barChart {
+  top: -4rem;
+  padding: 2rem 0;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 10px -2px rgb(154, 154, 154);
+  background: var(--primary-color);
+}
+.chartTitle {
+  padding: 1rem;
+}
+.chartText {
+  font-size: 1.5rem;
+  padding: 0 1rem 2rem 1rem;
+  color: var(--ligth-gray);
+}
+.chartStatus {
+  display: flex;
+  font-size: 1.5rem;
+  padding: 1.5rem 1rem;
+  color: var(--ligth-gray);
+  border-top: 1px solid #e3e3e3;
+}
+.chartStatus span {
+  margin-left: 1rem;
+}

@@ -1,0 +1,31 @@
+.notification {
+  width: 60%;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  margin: 3rem auto 0 auto;
+  box-shadow: 0 3px 10px -2px #cecece;
+}
+.notificationsTitle {
+  padding: 2rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+}
+.notificationWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.notificationBox {
+  width: 15rem;
+  font-size: 1.2rem;
+  background: linear-gradient(195deg, rgb(66, 66, 74), #313136);
+  border-radius: 0.4rem;
+  padding: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

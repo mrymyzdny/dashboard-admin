@@ -1,0 +1,64 @@
+.featuresWrapper {
+  padding: 3.5rem 0 2rem 0;
+  width: 100%;
+  z-index: -2;
+}
+.featureBox {
+  position: relative;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 3px 10px -2px #cecece;
+  padding: 2rem;
+}
+.featureBoxHead {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 1.5rem;
+}
+.featureBoxIcon {
+  position: absolute;
+  top: -1.5rem;
+  background-color: burlywood;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  color: #fff;
+}
+.black {
+  background-color: #313136;
+}
+.blue {
+  background-color: #348ded;
+}
+.green {
+  background-color: #59b15d;
+}
+.pink {
+  background-color: #e43270;
+}
+.featureBoxText {
+  margin-left: auto;
+  margin-bottom: 3rem;
+  text-align: right;
+}
+.featureBoxTitle {
+  color: var(--ligth-gray);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.featureBoxNum {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.featureBoxCaption {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: var(--ligth-gray);
+}
+.featureBoxPercent {
+  color: rgb(11, 172, 3);
+}

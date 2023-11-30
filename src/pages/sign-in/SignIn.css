@@ -1,0 +1,69 @@
+.form {
+  position: relative;
+  max-width: 40rem;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  margin: 15rem auto;
+  padding: 3rem 2rem;
+}
+.formHeader {
+  max-width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  margin-top: -5.5rem;
+  margin-bottom: 2.5rem;
+  color: #fff;
+  box-shadow: 1px 1px 10px var(--primary-color);
+  background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+}
+.formHeaderTitle {
+  font-size: 2.5rem;
+  margin: 0 auto 3rem auto;
+}
+.formHeaderIcon {
+  margin-left: 3rem;
+}
+.formHeaderIcon:first-child {
+  margin-left: 0;
+}
+.formHeaderText {
+  font-size: 1.3rem;
+}
+.formInput {
+  width: 100%;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border: 1px solid #d2d6da;
+  border-radius: 0.5rem;
+}
+.checkBoxInput,
+.inputLabel {
+  margin-top: 3rem;
+}
+.inputLabel {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: #7b809a;
+}
+.signInBtn {
+  margin-top: 2.5rem;
+  width: 100%;
+  border-radius: 0.8rem;
+}
+
+.formCaption {
+  text-align: center;
+  color: #7b809a;
+  margin-top: 2.5rem;
+}
+.formCaption a,
+.inputLabel a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}

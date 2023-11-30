@@ -1,0 +1,51 @@
+.profile {
+  width: 60%;
+  height: auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  margin: 3rem auto;
+}
+.profileHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.admonInfo {
+  display: flex;
+  align-items: center;
+}
+.adminProfile {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+.adminName {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+.adminRole {
+  font-size: 1.3rem;
+  color: var(--ligth-gray);
+}
+
+.profileInformationTitle {
+  padding: 4rem 0;
+}
+.profileInformationText {
+  color: var(--ligth-gray);
+  font-size: 1.4rem;
+  font-weight: lighter;
+  line-height: 2;
+  padding-bottom: 2rem;
+}
+.infoItem {
+  padding: 1.5rem 0;
+}
+.info {
+  color: var(--ligth-gray);
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin-left: 1rem;
+}

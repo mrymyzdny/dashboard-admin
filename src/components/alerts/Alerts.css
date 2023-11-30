@@ -1,0 +1,14 @@
+.alertsWrapper {
+  width: 60%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  margin: 3rem auto 0 auto;
+  box-shadow: 0 3px 10px -2px #cecece;
+}
+.alertsTitle {
+  padding: 2rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+}
